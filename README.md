@@ -17,3 +17,14 @@ composer require ali-eltaweel/bz2-codec
 ```
 
 ## Usage
+
+```php
+use Codecs\Bz2Codec;
+
+$bz2Codec = new Bz2Codec();
+
+$code = $bz2Codec->encode($data);
+
+$data = $bz2Codec->decode($code);
+```
+
